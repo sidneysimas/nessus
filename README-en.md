@@ -24,6 +24,17 @@ account: `admin`
 Password: Easter Egg! Check the change version  
 Let you explore the function, if you solved the password, Keep It Secret😉
 
+or
+
+```
+docker ps
+
+docker exec -it <container_id> /bin/bash
+
+/opt/nessus/sbin/nessuscli chpasswd admin
+new password
+```
+
 # Readme
 
 This crack was originally used, and I didn't plan to make it public  
