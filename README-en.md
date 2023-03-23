@@ -3,6 +3,26 @@
 This project is only for non -profit learning research. Do not use it for illegal purposes. If there is any infringement, please contact it in time to delete it
 
 [more info](https://twitter.com/elliot58616851)
+# Install Docker
+```
+sudo apt update && apt upgrade -y
+
+	sudo apt install apt-transport-https curl gnupg-agent ca-certificates software-properties-common -y
+
+	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+
+	sudo apt install docker-ce docker-ce-cli containerd.io -y
+
+	sudo usermod -aG docker $USER
+
+	newgrp docker
+
+	docker version
+ ```
+	
+	sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 # Usage
 `docker run -itd --name=ramisec_nessus -p 8834:8834 ramisec/nessus`  (497MB Only!!!)
