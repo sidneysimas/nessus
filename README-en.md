@@ -54,7 +54,7 @@ docker exec -it <container_id> /bin/bash
 /opt/nessus/sbin/nessuscli chpasswd admin
 new password
 ```
-To restart docker containner automaticaly procedure
+To restart docker container automaticaly procedure
 ```
 sudo systemctl enable docker.service
 ```
