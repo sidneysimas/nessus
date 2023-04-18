@@ -54,7 +54,13 @@ docker exec -it <container_id> /bin/bash
 /opt/nessus/sbin/nessuscli chpasswd admin
 new password
 ```
-
+To restart docker containner automaticaly procedure
+```
+sudo systemctl enable docker.service
+```
+```
+docker update --restart=always [container id or container name]
+```
 # Readme
 
 This crack was originally used, and I didn't plan to make it public  
