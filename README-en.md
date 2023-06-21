@@ -5,7 +5,7 @@ This project is only for non -profit learning research. Do not use it for illega
 [more info](https://twitter.com/elliot58616851)
 # Install Docker
 ```
-sudo apt update && apt upgrade -y
+	sudo apt update && apt upgrade -y
 
 	sudo apt install apt-transport-https curl gnupg-agent ca-certificates software-properties-common -y
 
