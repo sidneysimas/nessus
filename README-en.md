@@ -31,6 +31,15 @@ That's right, easy like that! But it need update the plugins with the following 
 
 # Update
 `docker exec -it ramisec_nessus /bin/bash /nessus/update.sh`  
+No UPDATE_URL_YOU_GOT você precisa entrar no https://tenable.com/products/nessus/nessus-essentials do nessus para obter um código de ativação e gerá-lo neste https://plugins.nessus.org/v2/offline.php
+![image](https://github.com/sidneysimas/nessus/assets/9019646/04940da9-8254-4ccc-8f96-57a702906c40)
+
+Qualquer serial como esse aaaaaa11b2222cc33d44e5f6666a777b8cc99912 estaria disponível, mas lembre-se de que não deve ser a mesma :)
+
+E você receberá o UPDATE_URL_YOU_GOT
+
+![image](https://github.com/sidneysimas/nessus/assets/9019646/c7dfe212-7aae-4305-81f5-9a40c3afc22d)
+
 
 
 __Alert__  
